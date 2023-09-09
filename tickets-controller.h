@@ -12,5 +12,6 @@ Tickets * tickets = NULL;
 
 void insert_ticket();
 void show_all_tickets();
+void init();
 
 #endif //AIR_TRAVEL_PROJECT_TICKETS_CONTROLLER_H

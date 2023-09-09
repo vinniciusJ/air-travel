@@ -15,5 +15,6 @@ void show_all_clients();
 void show_clients_tickets();
 void insert_client();
 void update_client();
+void init();
 
 #endif //AIR_TRAVEL_PROJECT_CLIENTS_CONTROLLER_H
