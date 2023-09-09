@@ -7,6 +7,6 @@
 #define AIR_TRAVEL_PROJECT_UTILS_H
 
 void * alloc(size_t size);
-void * free_alloc(void * ptr);
+void free_alloc(void * ptr);
 
 #endif //AIR_TRAVEL_PROJECT_UTILS_H

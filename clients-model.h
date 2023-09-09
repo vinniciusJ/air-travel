@@ -15,9 +15,9 @@ typedef struct {
     char code[CODE_LENGTH];
 } Client;
 
-typedef struct node {
+typedef struct ClientsNode {
     Client item;
-    struct node * next;
+    struct ClientsNode * next;
 } Clients;
 
 #endif //AIR_TRAVEL_PROJECT_CLIENT_MODEL_H

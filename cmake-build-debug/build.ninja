@@ -61,6 +61,30 @@ build CMakeFiles/air_travel_project.dir/app.c.o: C_COMPILER__air_travel_project_
   OBJECT_DIR = CMakeFiles/air_travel_project.dir
   OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
 
+build CMakeFiles/air_travel_project.dir/utils.c.o: C_COMPILER__air_travel_project_unscanned_Debug /home/vinniciusj/Documents/unioeste/ies/air-travel-project/utils.c || cmake_object_order_depends_target_air_travel_project
+  DEP_FILE = CMakeFiles/air_travel_project.dir/utils.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/air_travel_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
+
+build CMakeFiles/air_travel_project.dir/clients-repository.c.o: C_COMPILER__air_travel_project_unscanned_Debug /home/vinniciusj/Documents/unioeste/ies/air-travel-project/clients-repository.c || cmake_object_order_depends_target_air_travel_project
+  DEP_FILE = CMakeFiles/air_travel_project.dir/clients-repository.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/air_travel_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
+
+build CMakeFiles/air_travel_project.dir/clients-service.c.o: C_COMPILER__air_travel_project_unscanned_Debug /home/vinniciusj/Documents/unioeste/ies/air-travel-project/clients-service.c || cmake_object_order_depends_target_air_travel_project
+  DEP_FILE = CMakeFiles/air_travel_project.dir/clients-service.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/air_travel_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
+
+build CMakeFiles/air_travel_project.dir/file.c.o: C_COMPILER__air_travel_project_unscanned_Debug /home/vinniciusj/Documents/unioeste/ies/air-travel-project/file.c || cmake_object_order_depends_target_air_travel_project
+  DEP_FILE = CMakeFiles/air_travel_project.dir/file.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/air_travel_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target air_travel_project
@@ -69,7 +93,7 @@ build CMakeFiles/air_travel_project.dir/app.c.o: C_COMPILER__air_travel_project_
 #############################################
 # Link the executable air_travel_project
 
-build air_travel_project: C_EXECUTABLE_LINKER__air_travel_project_Debug CMakeFiles/air_travel_project.dir/main.c.o CMakeFiles/air_travel_project.dir/app.c.o
+build air_travel_project: C_EXECUTABLE_LINKER__air_travel_project_Debug CMakeFiles/air_travel_project.dir/main.c.o CMakeFiles/air_travel_project.dir/app.c.o CMakeFiles/air_travel_project.dir/utils.c.o CMakeFiles/air_travel_project.dir/clients-repository.c.o CMakeFiles/air_travel_project.dir/clients-service.c.o CMakeFiles/air_travel_project.dir/file.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/air_travel_project.dir
   POST_BUILD = :

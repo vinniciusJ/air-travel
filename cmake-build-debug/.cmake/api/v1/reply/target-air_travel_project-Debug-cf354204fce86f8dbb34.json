@@ -50,7 +50,11 @@
 			"sourceIndexes" : 
 			[
 				0,
-				13
+				13,
+				14,
+				15,
+				17,
+				18
 			]
 		}
 	],
@@ -84,7 +88,11 @@
 			"sourceIndexes" : 
 			[
 				0,
-				13
+				13,
+				14,
+				15,
+				17,
+				18
 			]
 		},
 		{
@@ -102,7 +110,8 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				16
 			]
 		}
 	],
@@ -178,6 +187,35 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "clients-repository.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "file.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "clients-service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "file.c",
 			"sourceGroupIndex" : 0
 		}
 	],

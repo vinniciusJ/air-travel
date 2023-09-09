@@ -16,4 +16,9 @@ add_executable(air_travel_project main.c
         tickets-controller.h
         utils.h
         app.h
-        app.c)
+        app.c
+        utils.c
+        clients-repository.c
+        file.h
+        clients-service.c
+        file.c)

@@ -1,4 +1,11 @@
 # ninja log v5
 0	21	1694278722668833772	CMakeFiles/air_travel_project.dir/main.c.o	4a08d6f50bce3829
-0	33	1694278722680833954	CMakeFiles/air_travel_project.dir/app.c.o	2927f3215ce881fc
 33	54	1694278722700834257	air_travel_project	2f1b3cd70cda3df4
+0	28	1694280437317640061	CMakeFiles/air_travel_project.dir/utils.c.o	86761716da34a970
+0	33	1694278722680833954	CMakeFiles/air_travel_project.dir/app.c.o	2927f3215ce881fc
+0	27	1694280552155986946	CMakeFiles/air_travel_project.dir/clients-repository.c.o	9d514cbbfae9157b
+0	22	1694280552147986785	CMakeFiles/air_travel_project.dir/clients-service.c.o	481ae2826a0faf99
+0	28	1694280595504861516	CMakeFiles/air_travel_project.dir/file.c.o	707816cb517d6964
+28	49	1694280595524861918	air_travel_project	d47cb92042e0b035
+1	31	1694280613865230280	CMakeFiles/air_travel_project.dir/clients-repository.c.o	9d514cbbfae9157b
+31	60	1694280613893230841	air_travel_project	d47cb92042e0b035

@@ -18,9 +18,9 @@ typedef struct  {
     double final_value;
 } Ticket;
 
-typedef struct node {
+typedef struct TicketsNode {
     Ticket item;
-    struct node * next;
+    struct TicketsNode * next;
 } Tickets;
 
 #endif //AIR_TRAVEL_PROJECT_TICKETS_H
