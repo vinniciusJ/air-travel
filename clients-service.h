@@ -13,5 +13,6 @@ Client * search(char cpf[CPF_LENGTH], Clients * clients);
 int is_employee(Client client);
 int get_fidelity(Client client);
 double get_discount(Client client);
+Clients * free_clients(Clients * clients);
 
 #endif //AIR_TRAVEL_PROJECT_CLIENTS_SERVICE_H

@@ -8,8 +8,10 @@
 #include "clients-service.h"
 #include "file.h"
 
+char * CLIENTS_FILENAME = "/home/nikoly/Documents/projects/air-travel/clients.txt";
+
 Clients * read_clients(){
-    FILE * clients_file = open_file("/home/nikoly/Documents/projects/air-travel/clients.txt", "r");
+    FILE * clients_file = open_file(CLIENTS_FILENAME, "r");
 
     Clients * clients = NULL;
     Client client;
@@ -24,4 +26,14 @@ Clients * read_clients(){
     fclose(clients_file);
 
     return clients;
+}
+
+void save_client(Client client) {
+    FILE * clients_file = open_file(CLIENTS_FILENAME, "a");
+
+    fprintf(clients_file, "%s\n", client.name);
+    fprintf(clients_file, "%s\n", client.cpf);
+    fprintf(clients_file, "%s\n", client.code);
+
+    fclose(clients_file);
 }

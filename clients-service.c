@@ -13,3 +13,14 @@ Clients * insert(Client client, Clients * clients){
 
     return aux;
 }
+
+Clients * free_clients(Clients * clients) {
+    Clients * aux;
+    while(clients != NULL) {
+        aux = clients;
+        clients = clients->next;
+        free(aux);
+    }
+
+    return NULL;
+}

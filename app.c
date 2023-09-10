@@ -36,6 +36,9 @@ void choose_option(){
         case 0:
             exit(EXIT_SUCCESS);
             break;
+        case 1:
+            insert_client();
+            break;
         case 4:
             show_all_clients();
             break;
