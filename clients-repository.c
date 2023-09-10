@@ -2,7 +2,6 @@
 // Created by vinniciusj on 09/09/23.
 //
 #include <stdio.h>
-#include <stdlib.h>
 
 #include "clients-repository.h"
 #include "clients-model.h"
@@ -10,7 +9,7 @@
 #include "file.h"
 
 Clients * read_clients(){
-    FILE * clients_file = open_file("clients.txt", "r");
+    FILE * clients_file = open_file("/home/nikoly/Documents/projects/air-travel/clients.txt", "r");
 
     Clients * clients = NULL;
     Client client;

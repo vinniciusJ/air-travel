@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="air_travel_project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nikoly/Documents/projects/air-travel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="air_travel_project">
+				<Option output="/home/nikoly/Documents/projects/air-travel/cmake-build-debug/air_travel_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikoly/Documents/projects/air-travel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 air_travel_project"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="air_travel_project/fast">
+				<Option output="/home/nikoly/Documents/projects/air-travel/cmake-build-debug/air_travel_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikoly/Documents/projects/air-travel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 air_travel_project/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nikoly/Documents/projects/air-travel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nikoly/Documents/projects/air-travel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/nikoly/Documents/projects/air-travel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/app.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/app.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-controller.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-controller.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-model.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-repository.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-repository.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-service.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-service.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-view.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/clients-view.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/file.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/file.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/main.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/tickets-controller.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/tickets-model.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/tickets-repository.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/tickets-service.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/tickets-view.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/utils.c">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/utils.h">
+			<Option target="air_travel_project"/>
+		</Unit>
+		<Unit filename="/home/nikoly/Documents/projects/air-travel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
