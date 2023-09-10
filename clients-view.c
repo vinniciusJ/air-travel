@@ -28,13 +28,24 @@ void show_client(Client client) {
     printf("Código Fidelidade: %s \n\n", client.code);
 }
 
-void get_client_params(char * name, char * cpf, char * code) {
+void input_client(Client * client) {
+    system("clear");
+
     printf("------------------Cadastro de Cliente------------------\n\n");
     printf("Nome: ");
-    scanf("%*c%[^\n]%*c", name);
+    scanf("%*c%[^\n]%*c", client->name);
     printf("CPF: ");
-    scanf("%*c%[^\n]%*c", cpf);
+    scanf("%*c%[^\n]%*c", client->cpf);
     printf("Código: ");
-    scanf("%*c%[^\n]%*c", code);
+    scanf("%*c%[^\n]%*c", client->code);
+    printf("\n");
+}
+
+void input_cpf(char * cpf) {
+    system("clear");
+
+    printf("------------------Pesquisa de Cliente------------------\n\n");
+    printf("Digite o cpf procurado: ");
+    scanf("%*c%[^\n]%*c", cpf);
     printf("\n");
 }

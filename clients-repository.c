@@ -28,12 +28,12 @@ Clients * read_clients(){
     return clients;
 }
 
-void save_client(Client client) {
+void save_client(Client * client) {
     FILE * clients_file = open_file(CLIENTS_FILENAME, "a");
 
-    fprintf(clients_file, "%s\n", client.name);
-    fprintf(clients_file, "%s\n", client.cpf);
-    fprintf(clients_file, "%s\n", client.code);
+    fprintf(clients_file, "%s\n", client->name);
+    fprintf(clients_file, "%s\n", client->cpf);
+    fprintf(clients_file, "%s\n", client->code);
 
     fclose(clients_file);
 }

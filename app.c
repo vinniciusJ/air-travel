@@ -39,6 +39,8 @@ void choose_option(){
         case 1:
             insert_client();
             break;
+        case 3:
+            search_client_by_cpf();
         case 4:
             show_all_clients();
             break;

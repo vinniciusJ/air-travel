@@ -6,6 +6,7 @@
 #include "clients-controller.h"
 #include "clients-service.h"
 #include "clients-view.h"
+#include "utils.h"
 
 void show_all_clients() {
     Clients * clients = read_clients();
@@ -16,9 +17,23 @@ void show_all_clients() {
 }
 
 void insert_client() {
-    Client client;
+    Client * client = (Client *) alloc(sizeof(Client));
 
-    get_client_params(client.name, client.cpf, client.code);
+    input_client(client);
 
     save_client(client);
+}
+
+void search_client_by_cpf() {
+    char cpf[CPF_LENGTH];
+
+    input_cpf(cpf);
+
+    Clients * clients = read_clients();
+
+    Client client = search(cpf, clients);
+
+    show_client(client);
+
+    free_clients(clients);
 }

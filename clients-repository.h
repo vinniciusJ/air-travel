@@ -8,7 +8,7 @@
 #define AIR_TRAVEL_PROJECT_CLIENTS_REPOSITORY_H
 
 Clients * read_clients();
-void save_client(Client client);
+void save_client(Client * client);
 Clients * save_clients(Clients *clients);
 Clients * sync_clients(Clients *clients);
 

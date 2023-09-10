@@ -109,8 +109,19 @@ CMakeFiles/air_travel_project.dir/clients-controller.c.o
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /home/nikoly/Documents/projects/air-travel/clients-service.h
  /home/nikoly/Documents/projects/air-travel/clients-view.h
  /home/nikoly/Documents/projects/air-travel/tickets-model.h
+ /home/nikoly/Documents/projects/air-travel/utils.h
+ /usr/include/stdio.h
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
 
 CMakeFiles/air_travel_project.dir/clients-repository.c.o
  /home/nikoly/Documents/projects/air-travel/clients-repository.c
@@ -209,6 +220,10 @@ CMakeFiles/air_travel_project.dir/clients-service.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+ /usr/include/string.h
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+ /usr/include/strings.h
 
 CMakeFiles/air_travel_project.dir/clients-view.c.o
  /home/nikoly/Documents/projects/air-travel/clients-view.c
