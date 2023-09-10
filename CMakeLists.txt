@@ -21,4 +21,7 @@ add_executable(air_travel_project main.c
         clients-repository.c
         file.h
         clients-service.c
-        file.c)
+        file.c
+        clients-controller.c
+        clients-view.c
+)

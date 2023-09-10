@@ -3,13 +3,12 @@
 //
 
 #include "clients-model.h"
-#include "tickets-model.h"
 
 #ifndef AIR_TRAVEL_PROJECT_CLIENTS_REPOSITORY_H
 #define AIR_TRAVEL_PROJECT_CLIENTS_REPOSITORY_H
 
-Clients * read_tickets();
-Clients * save_tickets(Tickets *clients);
-Clients * sync_tickets(Tickets *clients);
+Clients * read_clients();
+Clients * save_clients(Clients *clients);
+Clients * sync_clients(Clients *clients);
 
 #endif //AIR_TRAVEL_PROJECT_CLIENTS_REPOSITORY_H

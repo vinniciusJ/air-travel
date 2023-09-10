@@ -8,7 +8,7 @@
 #ifndef AIR_TRAVEL_PROJECT_CLIENTS_CONTROLLER_H
 #define AIR_TRAVEL_PROJECT_CLIENTS_CONTROLLER_H
 
-Clients * clients = NULL;
+//Clients * clients = NULL;
 
 void search_client_by_cpf();
 void show_all_clients();

@@ -3,13 +3,14 @@
 //
 #include <stdlib.h>
 #include <stdio.h>
+#include "clients-controller.h"
 
 #include "app.h"
 
 void show_menu(){
     system("clear");
 
-    printf("------------------Passagens Aereas------------------\n\n");
+    printf("------------------Sistema de Passagens Aereas------------------\n\n");
 
     printf("[0] Sair do sistema\n");
     printf("[1] Cadastrar cliente\n");
@@ -34,6 +35,9 @@ void choose_option(){
     switch (option) {
         case 0:
             exit(EXIT_SUCCESS);
+            break;
+        case 4:
+            show_all_clients();
             break;
         default:
             printf("Opção inválida, por favor, insira uma opção valida: ");
