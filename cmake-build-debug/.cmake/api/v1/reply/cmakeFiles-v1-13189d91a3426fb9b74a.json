@@ -45,21 +45,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeFindCodeBlocks.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/ProcessorCount.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "/snap/clion/249/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -101,8 +86,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/nikoly/Documents/projects/air-travel/cmake-build-debug",
-		"source" : "/home/nikoly/Documents/projects/air-travel"
+		"build" : "/home/vinniciusj/Documents/unioeste/ies/air-travel-project/cmake-build-debug",
+		"source" : "/home/vinniciusj/Documents/unioeste/ies/air-travel-project"
 	},
 	"version" : 
 	{

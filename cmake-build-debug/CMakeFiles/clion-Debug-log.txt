@@ -1,4 +1,4 @@
-/snap/clion/249/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/nikoly/Documents/projects/air-travel -B /home/nikoly/Documents/projects/air-travel/cmake-build-debug
+/snap/clion/249/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/249/bin/ninja/linux/x64/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -G Ninja -S /home/vinniciusj/Documents/unioeste/ies/air-travel-project -B /home/vinniciusj/Documents/unioeste/ies/air-travel-project/cmake-build-debug
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/nikoly/Documents/projects/air-travel/cmake-build-debug
+-- Build files have been written to: /home/vinniciusj/Documents/unioeste/ies/air-travel-project/cmake-build-debug

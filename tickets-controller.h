@@ -10,7 +10,7 @@
 
 Tickets * tickets = NULL;
 
-void insert_ticket();
+void add_ticket();
 void show_all_tickets();
 void init();
 

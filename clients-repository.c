@@ -8,7 +8,7 @@
 #include "clients-service.h"
 #include "file.h"
 
-char * CLIENTS_FILENAME = "/home/nikoly/Documents/projects/air-travel/clients.txt";
+char * CLIENTS_FILENAME = "/home/vinniciusj/Documents/unioeste/ies/air-travel-project/clients.txt";
 
 Clients * read_clients(){
     FILE * clients_file = open_file(CLIENTS_FILENAME, "r");
@@ -20,7 +20,7 @@ Clients * read_clients(){
         fscanf(clients_file, "%[^\n]%*c", client.cpf);
         fscanf(clients_file, "%[^\n]%*c", client.code);
 
-        clients = insert(client, clients);
+        clients = insert_client(client, clients);
     }
 
     fclose(clients_file);
@@ -31,9 +31,9 @@ Clients * read_clients(){
 void save_client(Client * client) {
     FILE * clients_file = open_file(CLIENTS_FILENAME, "a");
 
-    fprintf(clients_file, "%s\n", client->name);
-    fprintf(clients_file, "%s\n", client->cpf);
-    fprintf(clients_file, "%s\n", client->code);
+    fprintf(clients_file, "%-25s", client->name);
+    fprintf(clients_file, "%12s", client->cpf);
+    fprintf(clients_file, "%4s\n", client->code);
 
     fclose(clients_file);
 }

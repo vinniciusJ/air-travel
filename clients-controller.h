@@ -13,7 +13,7 @@
 void search_client_by_cpf();
 void show_all_clients();
 void show_clients_tickets();
-void insert_client();
+void add_client();
 void update_client();
 void init();
 

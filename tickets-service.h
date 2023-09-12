@@ -7,10 +7,8 @@
 #ifndef AIR_TRAVEL_PROJECT_TICKETS_SERVICE_H
 #define AIR_TRAVEL_PROJECT_TICKETS_SERVICE_H
 
-Tickets * insert(Ticket ticket, Tickets * tickets);
-Tickets * update(Ticket ticket, Tickets * index_ptr);
-double get_ticket_total(Ticket ticket);
-double get_discount(Ticket ticket);
+Tickets * insert_ticket(Ticket ticket, Tickets * tickets);
+double get_ticket_total(Ticket ticket, Clients * clients);
 Tickets * get_tickets_by_client(Client client, Tickets * tickets);
 
 #endif //AIR_TRAVEL_PROJECT_TICKETS_SERVICE_H

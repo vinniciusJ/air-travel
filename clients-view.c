@@ -3,9 +3,11 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "clients-model.h"
 #include "clients-view.h"
+#include "utils.h"
 
 void show_clients(Clients * clients) {
     system("clear");
@@ -29,16 +31,20 @@ void show_client(Client client) {
 }
 
 void input_client(Client * client) {
-    system("clear");
-
+    
     printf("------------------Cadastro de Cliente------------------\n\n");
     printf("Nome: ");
-    scanf("%*c%[^\n]%*c", client->name);
-    printf("CPF: ");
-    scanf("%*c%[^\n]%*c", client->cpf);
-    printf("Código: ");
-    scanf("%*c%[^\n]%*c", client->code);
+    scanf("%[^\n]%*c", client->name);
     printf("\n");
+
+    printf("CPF: ");
+    scanf("%[^\n]%*c", client->cpf);
+    printf("\n");
+
+    printf("Código: ");
+    scanf("%[^\n]%*c", client->code);
+    printf("\n");
+
 }
 
 void input_cpf(char * cpf) {

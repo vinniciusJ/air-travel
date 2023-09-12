@@ -6,7 +6,7 @@
 #include "utils.h"
 #include <string.h>
 
-Clients * insert(Client client, Clients * clients){
+Clients * insert_client(Client client, Clients * clients){
     Clients * aux = (Clients * ) alloc(sizeof(Clients));
 
     aux->item = client;
@@ -15,19 +15,18 @@ Clients * insert(Client client, Clients * clients){
     return aux;
 }
 
-Client search(char cpf[CPF_LENGTH], Clients * clients){
-    Client client;
-    reset_client(client);
+Client * search(char cpf[CPF_LENGTH]){
+    Clients * clients = read_clients();
 
     while (clients != NULL) {
-        if(!strcmp(clients->item.cpf, cpf)) {
-            client = clients->item;
+        if(strcmp(clients->item.cpf, cpf) == 0) {
+            return &clients->item;
         }
 
         clients = clients->next;
     }
 
-    return client;
+    return NULL;
 }
 
 Clients * free_clients(Clients * clients) {
@@ -35,7 +34,7 @@ Clients * free_clients(Clients * clients) {
     while(clients != NULL) {
         aux = clients;
         clients = clients->next;
-        free(aux);
+        free_alloc(aux);
     }
 
     return NULL;

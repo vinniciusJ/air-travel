@@ -30,14 +30,15 @@ void show_menu(){
 void choose_option(){
     int option = 0;
 
-    scanf("%d", &option);
+    scanf("%d%*c", &option);
+
 
     switch (option) {
         case 0:
             exit(EXIT_SUCCESS);
             break;
         case 1:
-            insert_client();
+            add_client();
             break;
         case 3:
             search_client_by_cpf();

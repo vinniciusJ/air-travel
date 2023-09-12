@@ -16,12 +16,15 @@ void show_all_clients() {
     free_clients(clients);
 }
 
-void insert_client() {
+void add_client() {
     Client * client = (Client *) alloc(sizeof(Client));
 
     input_client(client);
 
+    show_client(*client);
+
     save_client(client);
+    free_alloc(client);
 }
 
 void search_client_by_cpf() {
@@ -30,10 +33,7 @@ void search_client_by_cpf() {
     input_cpf(cpf);
 
     Clients * clients = read_clients();
-
-    Client client = search(cpf, clients);
-
-    show_client(client);
+    Client * client = search(cpf);
 
     free_clients(clients);
 }
