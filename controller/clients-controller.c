@@ -61,7 +61,7 @@ void show_client_fidelity(){
     input_cpf(cpf);
     client = search(cpf);
 
-    show_fidelity(client->cpf[CPF_LENGTH - 1]);
+    show_fidelity(client->code[CODE_LENGTH - 2]);
 }
 
 void show_employees(){

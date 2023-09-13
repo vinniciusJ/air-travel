@@ -22,6 +22,7 @@ Clients * read_clients(){
     while(fscanf(clients_file, "%[^\n]%*c", client->passenger_name) != EOF){
         fscanf(clients_file, "%[^\n]%*c", client->cpf);
         fscanf(clients_file, "%[^\n]%*c", client->code);
+        fscanf(clients_file, "%d", &client->is_employee);
 
         clients = insert_client(*client, clients);
     }
@@ -40,7 +41,7 @@ void save_client(Client * client) {
     fprintf(clients_file, "%s\n", client->passenger_name);
     fprintf(clients_file, "%s\n", client->cpf);
     fprintf(clients_file, "%s\n", client->code);
-    fprintf(clients_file, "%d\n", client->is_employee);
+    fprintf(clients_file, "%d", client->is_employee);
 
     fclose(clients_file);
 }

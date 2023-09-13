@@ -78,6 +78,7 @@ void show_clients_tickets(Client * client, Tickets * tickets){
 }
 
 void show_fidelity(char digit){
+    printf("%c", digit);
     printf("O plano de fidelidade do cliente é: %s\n", digit == '1' ? "Gold" : digit == '2' ? "Silver" : "Comum");
 }
 
