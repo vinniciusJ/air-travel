@@ -31,7 +31,7 @@ void show_ticket(Ticket ticket, Client client){
     printf("|-----------------PASSAGEM AEREA---------------|\n");
     printf("|Sigla Aeroporto de origem: %19s|\n", ticket.origin_airport_abbr);
     printf("|Sigla Aeroporto de destino: %18s|\n", ticket.origin_airport_abbr);
-    printf("|Nome do passageiro: %26s|\n", client.name);
+    printf("|Nome do passageiro: %26s|\n", client.passenger_name);
     printf("|CPF: %41s|\n", client.cpf);
     printf("|Código: %38s|\n", client.code);
     printf("|Valor da passagem: R$%25.2lf|\n", ticket.value);

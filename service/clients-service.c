@@ -49,12 +49,6 @@ double get_discount(Client client){
     return discount + employee_discount;
 }
 
-void reset_client(Client client) {
-    strcpy(client.name, "");
-    strcpy(client.cpf, "");
-    strcpy(client.code, "");
-}
-
 Clients * get_employees(){
     Clients * clients = read_clients();
     Clients * employees = NULL;

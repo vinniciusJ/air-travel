@@ -27,29 +27,33 @@ void show_clients(Clients * clients) {
 }
 
 void show_client(Client client) {
-    printf("Nome: %s \n", client.name);
+    printf("Nome: %s \n", client.passenger_name);
     printf("CPF: %s \n", client.cpf);
     printf("Código Fidelidade: %s \n\n", client.code);
 }
 
-void input_client(Client * client) {
-    char aux;
+
+Client * input_client() {
+    Client * aux = (Client *) alloc(sizeof(Client));
+
+    aux->passenger_name = (char *) alloc(50);
 
     printf("---------------Cadastro de cliente---------------\n");
 
     printf("Nome: ");
-    scanf("%[^\n]%*c", client->name);
-
-    printf("CPF: ");
-    scanf("%[^\n]%*c", client->cpf);
+    scanf("%[^\n]%*c", aux->passenger_name);
 
     printf("Código: ");
-    scanf("%[^\n]%*c", client->code);
+    scanf("%[^\n]%*c", aux->code);
+
+    printf("CPF: ");
+    scanf("%[^\n]%*c", aux->cpf);
 
     printf("É empregado (S/N)? ");
-    scanf("%c", &aux);
+    scanf("%d", &aux->is_employee);
 
-    client->is_employee = tolower(aux) == 's';
+
+    return aux;
 }
 
 void input_cpf(char * cpf) {

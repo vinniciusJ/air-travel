@@ -60,7 +60,7 @@ CMakeFiles/air_travel_project.dir/app.c.o: /home/nikoly/Documents/projects/air-t
   /home/nikoly/Documents/projects/air-travel/controller/tickets-controller.h \
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
   /home/nikoly/Documents/projects/air-travel/app.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h
 
 CMakeFiles/air_travel_project.dir/controller/clients-controller.c.o: /home/nikoly/Documents/projects/air-travel/controller/clients-controller.c \
   /usr/include/stdc-predef.h \
@@ -120,7 +120,7 @@ CMakeFiles/air_travel_project.dir/controller/clients-controller.c.o: /home/nikol
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
   /home/nikoly/Documents/projects/air-travel/service/tickets-service.h \
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h \
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -170,7 +170,7 @@ CMakeFiles/air_travel_project.dir/controller/tickets-controller.c.o: /home/nikol
   /home/nikoly/Documents/projects/air-travel/view/tickets-view.h \
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h
 
 CMakeFiles/air_travel_project.dir/main.c.o: /home/nikoly/Documents/projects/air-travel/main.c \
   /usr/include/stdc-predef.h \
@@ -208,7 +208,7 @@ CMakeFiles/air_travel_project.dir/repository/clients-repository.c.o: /home/nikol
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
   /home/nikoly/Documents/projects/air-travel/repository/clients-repository.h \
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
-  /home/nikoly/Documents/projects/air-travel/file.h \
+  /home/nikoly/Documents/projects/air-travel/utils/file.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -242,7 +242,8 @@ CMakeFiles/air_travel_project.dir/repository/clients-repository.c.o: /home/nikol
   /usr/include/linux/errno.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h
+  /usr/include/asm-generic/errno-base.h \
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h
 
 CMakeFiles/air_travel_project.dir/repository/tickets-repository.c.o: /home/nikoly/Documents/projects/air-travel/repository/tickets-repository.c \
   /usr/include/stdc-predef.h \
@@ -294,7 +295,7 @@ CMakeFiles/air_travel_project.dir/repository/tickets-repository.c.o: /home/nikol
   /home/nikoly/Documents/projects/air-travel/service/tickets-service.h \
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
-  /home/nikoly/Documents/projects/air-travel/file.h \
+  /home/nikoly/Documents/projects/air-travel/utils/file.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -317,7 +318,7 @@ CMakeFiles/air_travel_project.dir/service/clients-service.c.o: /home/nikoly/Docu
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
   /home/nikoly/Documents/projects/air-travel/repository/clients-repository.h \
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h \
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -371,7 +372,7 @@ CMakeFiles/air_travel_project.dir/service/tickets-service..c.o: /home/nikoly/Doc
   /home/nikoly/Documents/projects/air-travel/service/clients-service.h \
   /home/nikoly/Documents/projects/air-travel/repository/clients-repository.h \
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h \
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -386,6 +387,124 @@ CMakeFiles/air_travel_project.dir/service/tickets-service..c.o: /home/nikoly/Doc
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+
+CMakeFiles/air_travel_project.dir/utils/file.c.o: /home/nikoly/Documents/projects/air-travel/utils/file.c \
+  /usr/include/stdc-predef.h \
+  /home/nikoly/Documents/projects/air-travel/utils/file.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h
+
+CMakeFiles/air_travel_project.dir/utils/utils.c.o: /home/nikoly/Documents/projects/air-travel/utils/utils.c \
+  /usr/include/stdc-predef.h \
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
 
 CMakeFiles/air_travel_project.dir/view/clients-view.c.o: /home/nikoly/Documents/projects/air-travel/view/clients-view.c \
   /usr/include/stdc-predef.h \
@@ -450,7 +569,7 @@ CMakeFiles/air_travel_project.dir/view/clients-view.c.o: /home/nikoly/Documents/
   /home/nikoly/Documents/projects/air-travel/view/clients-view.h \
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
   /home/nikoly/Documents/projects/air-travel/view/tickets-view.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h
 
 CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/projects/air-travel/view/tickets-view.c \
   /usr/include/stdc-predef.h \
@@ -481,10 +600,12 @@ CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/
   /home/nikoly/Documents/projects/air-travel/view/tickets-view.h \
   /home/nikoly/Documents/projects/air-travel/model/tickets-model.h \
   /home/nikoly/Documents/projects/air-travel/model/clients-model.h \
-  /home/nikoly/Documents/projects/air-travel/utils.h
+  /home/nikoly/Documents/projects/air-travel/utils/utils.h
 
 
 /usr/include/ctype.h:
+
+/home/nikoly/Documents/projects/air-travel/utils/file.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -499,6 +620,10 @@ CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -538,6 +663,8 @@ CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/
 
 /usr/include/features-time64.h:
 
+/home/nikoly/Documents/projects/air-travel/utils/utils.c:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/stdc-predef.h:
@@ -549,6 +676,8 @@ CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /home/nikoly/Documents/projects/air-travel/service/tickets-service.h:
+
+/home/nikoly/Documents/projects/air-travel/utils/file.h:
 
 /home/nikoly/Documents/projects/air-travel/service/tickets-service..c:
 
@@ -608,13 +737,11 @@ CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/
 
 /usr/include/alloca.h:
 
+/home/nikoly/Documents/projects/air-travel/utils/utils.h:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/home/nikoly/Documents/projects/air-travel/utils.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -647,10 +774,6 @@ CMakeFiles/air_travel_project.dir/view/tickets-view.c.o: /home/nikoly/Documents/
 /home/nikoly/Documents/projects/air-travel/view/clients-view.h:
 
 /home/nikoly/Documents/projects/air-travel/main.c:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/home/nikoly/Documents/projects/air-travel/file.h:
 
 /home/nikoly/Documents/projects/air-travel/view/tickets-view.h:
 

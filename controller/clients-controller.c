@@ -35,13 +35,13 @@ void show_all_clients() {
 }
 
 void add_client() {
-    Client client;
+    Client * client = input_client();
 
-    input_client(&client);
+    save_client(client);
+    free_alloc(client->passenger_name);
+    free_alloc(client);
 
-    save_client(&client);
 }
-
 void search_client_by_cpf() {
     char cpf[CPF_LENGTH];
 

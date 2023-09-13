@@ -9,7 +9,7 @@
 #define AIR_TRAVEL_PROJECT_CLIENTS_VIEW_H
 
 void input_cpf(char * cpf);
-void input_client(Client * client);
+Client * input_client();
 void show_client(Client client);
 void show_clients(Clients * clients);
 void show_clients_tickets(Client * client, Tickets * tickets);
