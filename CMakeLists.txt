@@ -4,28 +4,28 @@ project(air_travel_project C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(air_travel_project main.c
-        clients-model.h
-        clients-repository.h
-        clients-service.h
-        clients-view.h
-        tickets-model.h
-        clients-controller.h
-        tickets-repository.h
-        tickets-service.h
-        tickets-view.h
-        tickets-controller.h
-        utils.h
+        model/clients-model.h
+        repository/clients-repository.h
+        service/clients-service.h
+        view/clients-view.h
+        model/tickets-model.h
+        controller/clients-controller.h
+        repository/tickets-repository.h
+        service/tickets-service.h
+        view/tickets-view.h
+        controller/tickets-controller.h
+        utils/utils.h
         app.h
         app.c
-        utils.c
-        clients-repository.c
-        file.h
-        clients-service.c
-        file.c
-        clients-controller.c
-        clients-view.c
-        tickets-repository.c
-        tickets-service..c
-        tickets-controller.c
-        tickets-view.c
+        utils/utils.c
+        repository/clients-repository.c
+        utils/file.h
+        service/clients-service.c
+        utils/file.c
+        controller/clients-controller.c
+        view/clients-view.c
+        repository/tickets-repository.c
+        service/tickets-service..c
+        controller/tickets-controller.c
+        view/tickets-view.c
 )

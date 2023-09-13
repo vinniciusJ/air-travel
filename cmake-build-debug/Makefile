@@ -153,125 +153,53 @@ app.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/app.c.s
 .PHONY : app.c.s
 
-clients-controller.o: clients-controller.c.o
-.PHONY : clients-controller.o
+controller/clients-controller.o: controller/clients-controller.c.o
+.PHONY : controller/clients-controller.o
 
 # target to build an object file
-clients-controller.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-controller.c.o
-.PHONY : clients-controller.c.o
+controller/clients-controller.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/controller/clients-controller.c.o
+.PHONY : controller/clients-controller.c.o
 
-clients-controller.i: clients-controller.c.i
-.PHONY : clients-controller.i
+controller/clients-controller.i: controller/clients-controller.c.i
+.PHONY : controller/clients-controller.i
 
 # target to preprocess a source file
-clients-controller.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-controller.c.i
-.PHONY : clients-controller.c.i
+controller/clients-controller.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/controller/clients-controller.c.i
+.PHONY : controller/clients-controller.c.i
 
-clients-controller.s: clients-controller.c.s
-.PHONY : clients-controller.s
+controller/clients-controller.s: controller/clients-controller.c.s
+.PHONY : controller/clients-controller.s
 
 # target to generate assembly for a file
-clients-controller.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-controller.c.s
-.PHONY : clients-controller.c.s
+controller/clients-controller.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/controller/clients-controller.c.s
+.PHONY : controller/clients-controller.c.s
 
-clients-repository.o: clients-repository.c.o
-.PHONY : clients-repository.o
+controller/tickets-controller.o: controller/tickets-controller.c.o
+.PHONY : controller/tickets-controller.o
 
 # target to build an object file
-clients-repository.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-repository.c.o
-.PHONY : clients-repository.c.o
+controller/tickets-controller.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/controller/tickets-controller.c.o
+.PHONY : controller/tickets-controller.c.o
 
-clients-repository.i: clients-repository.c.i
-.PHONY : clients-repository.i
-
-# target to preprocess a source file
-clients-repository.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-repository.c.i
-.PHONY : clients-repository.c.i
-
-clients-repository.s: clients-repository.c.s
-.PHONY : clients-repository.s
-
-# target to generate assembly for a file
-clients-repository.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-repository.c.s
-.PHONY : clients-repository.c.s
-
-clients-service.o: clients-service.c.o
-.PHONY : clients-service.o
-
-# target to build an object file
-clients-service.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-service.c.o
-.PHONY : clients-service.c.o
-
-clients-service.i: clients-service.c.i
-.PHONY : clients-service.i
+controller/tickets-controller.i: controller/tickets-controller.c.i
+.PHONY : controller/tickets-controller.i
 
 # target to preprocess a source file
-clients-service.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-service.c.i
-.PHONY : clients-service.c.i
+controller/tickets-controller.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/controller/tickets-controller.c.i
+.PHONY : controller/tickets-controller.c.i
 
-clients-service.s: clients-service.c.s
-.PHONY : clients-service.s
-
-# target to generate assembly for a file
-clients-service.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-service.c.s
-.PHONY : clients-service.c.s
-
-clients-view.o: clients-view.c.o
-.PHONY : clients-view.o
-
-# target to build an object file
-clients-view.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-view.c.o
-.PHONY : clients-view.c.o
-
-clients-view.i: clients-view.c.i
-.PHONY : clients-view.i
-
-# target to preprocess a source file
-clients-view.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-view.c.i
-.PHONY : clients-view.c.i
-
-clients-view.s: clients-view.c.s
-.PHONY : clients-view.s
+controller/tickets-controller.s: controller/tickets-controller.c.s
+.PHONY : controller/tickets-controller.s
 
 # target to generate assembly for a file
-clients-view.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/clients-view.c.s
-.PHONY : clients-view.c.s
-
-file.o: file.c.o
-.PHONY : file.o
-
-# target to build an object file
-file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/file.c.o
-.PHONY : file.c.o
-
-file.i: file.c.i
-.PHONY : file.i
-
-# target to preprocess a source file
-file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/file.c.i
-.PHONY : file.c.i
-
-file.s: file.c.s
-.PHONY : file.s
-
-# target to generate assembly for a file
-file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/file.c.s
-.PHONY : file.c.s
+controller/tickets-controller.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/controller/tickets-controller.c.s
+.PHONY : controller/tickets-controller.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -297,29 +225,197 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/main.c.s
 .PHONY : main.c.s
 
-utils.o: utils.c.o
-.PHONY : utils.o
+repository/clients-repository.o: repository/clients-repository.c.o
+.PHONY : repository/clients-repository.o
 
 # target to build an object file
-utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils.c.o
-.PHONY : utils.c.o
+repository/clients-repository.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/repository/clients-repository.c.o
+.PHONY : repository/clients-repository.c.o
 
-utils.i: utils.c.i
-.PHONY : utils.i
+repository/clients-repository.i: repository/clients-repository.c.i
+.PHONY : repository/clients-repository.i
 
 # target to preprocess a source file
-utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils.c.i
-.PHONY : utils.c.i
+repository/clients-repository.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/repository/clients-repository.c.i
+.PHONY : repository/clients-repository.c.i
 
-utils.s: utils.c.s
-.PHONY : utils.s
+repository/clients-repository.s: repository/clients-repository.c.s
+.PHONY : repository/clients-repository.s
 
 # target to generate assembly for a file
-utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils.c.s
-.PHONY : utils.c.s
+repository/clients-repository.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/repository/clients-repository.c.s
+.PHONY : repository/clients-repository.c.s
+
+repository/tickets-repository.o: repository/tickets-repository.c.o
+.PHONY : repository/tickets-repository.o
+
+# target to build an object file
+repository/tickets-repository.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/repository/tickets-repository.c.o
+.PHONY : repository/tickets-repository.c.o
+
+repository/tickets-repository.i: repository/tickets-repository.c.i
+.PHONY : repository/tickets-repository.i
+
+# target to preprocess a source file
+repository/tickets-repository.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/repository/tickets-repository.c.i
+.PHONY : repository/tickets-repository.c.i
+
+repository/tickets-repository.s: repository/tickets-repository.c.s
+.PHONY : repository/tickets-repository.s
+
+# target to generate assembly for a file
+repository/tickets-repository.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/repository/tickets-repository.c.s
+.PHONY : repository/tickets-repository.c.s
+
+service/clients-service.o: service/clients-service.c.o
+.PHONY : service/clients-service.o
+
+# target to build an object file
+service/clients-service.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/service/clients-service.c.o
+.PHONY : service/clients-service.c.o
+
+service/clients-service.i: service/clients-service.c.i
+.PHONY : service/clients-service.i
+
+# target to preprocess a source file
+service/clients-service.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/service/clients-service.c.i
+.PHONY : service/clients-service.c.i
+
+service/clients-service.s: service/clients-service.c.s
+.PHONY : service/clients-service.s
+
+# target to generate assembly for a file
+service/clients-service.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/service/clients-service.c.s
+.PHONY : service/clients-service.c.s
+
+service/tickets-service..o: service/tickets-service..c.o
+.PHONY : service/tickets-service..o
+
+# target to build an object file
+service/tickets-service..c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/service/tickets-service..c.o
+.PHONY : service/tickets-service..c.o
+
+service/tickets-service..i: service/tickets-service..c.i
+.PHONY : service/tickets-service..i
+
+# target to preprocess a source file
+service/tickets-service..c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/service/tickets-service..c.i
+.PHONY : service/tickets-service..c.i
+
+service/tickets-service..s: service/tickets-service..c.s
+.PHONY : service/tickets-service..s
+
+# target to generate assembly for a file
+service/tickets-service..c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/service/tickets-service..c.s
+.PHONY : service/tickets-service..c.s
+
+utils/file.o: utils/file.c.o
+.PHONY : utils/file.o
+
+# target to build an object file
+utils/file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils/file.c.o
+.PHONY : utils/file.c.o
+
+utils/file.i: utils/file.c.i
+.PHONY : utils/file.i
+
+# target to preprocess a source file
+utils/file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils/file.c.i
+.PHONY : utils/file.c.i
+
+utils/file.s: utils/file.c.s
+.PHONY : utils/file.s
+
+# target to generate assembly for a file
+utils/file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils/file.c.s
+.PHONY : utils/file.c.s
+
+utils/utils.o: utils/utils.c.o
+.PHONY : utils/utils.o
+
+# target to build an object file
+utils/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils/utils.c.o
+.PHONY : utils/utils.c.o
+
+utils/utils.i: utils/utils.c.i
+.PHONY : utils/utils.i
+
+# target to preprocess a source file
+utils/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils/utils.c.i
+.PHONY : utils/utils.c.i
+
+utils/utils.s: utils/utils.c.s
+.PHONY : utils/utils.s
+
+# target to generate assembly for a file
+utils/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/utils/utils.c.s
+.PHONY : utils/utils.c.s
+
+view/clients-view.o: view/clients-view.c.o
+.PHONY : view/clients-view.o
+
+# target to build an object file
+view/clients-view.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/view/clients-view.c.o
+.PHONY : view/clients-view.c.o
+
+view/clients-view.i: view/clients-view.c.i
+.PHONY : view/clients-view.i
+
+# target to preprocess a source file
+view/clients-view.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/view/clients-view.c.i
+.PHONY : view/clients-view.c.i
+
+view/clients-view.s: view/clients-view.c.s
+.PHONY : view/clients-view.s
+
+# target to generate assembly for a file
+view/clients-view.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/view/clients-view.c.s
+.PHONY : view/clients-view.c.s
+
+view/tickets-view.o: view/tickets-view.c.o
+.PHONY : view/tickets-view.o
+
+# target to build an object file
+view/tickets-view.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/view/tickets-view.c.o
+.PHONY : view/tickets-view.c.o
+
+view/tickets-view.i: view/tickets-view.c.i
+.PHONY : view/tickets-view.i
+
+# target to preprocess a source file
+view/tickets-view.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/view/tickets-view.c.i
+.PHONY : view/tickets-view.c.i
+
+view/tickets-view.s: view/tickets-view.c.s
+.PHONY : view/tickets-view.s
+
+# target to generate assembly for a file
+view/tickets-view.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_travel_project.dir/build.make CMakeFiles/air_travel_project.dir/view/tickets-view.c.s
+.PHONY : view/tickets-view.c.s
 
 # Help Target
 help:
@@ -333,27 +429,39 @@ help:
 	@echo "... app.o"
 	@echo "... app.i"
 	@echo "... app.s"
-	@echo "... clients-controller.o"
-	@echo "... clients-controller.i"
-	@echo "... clients-controller.s"
-	@echo "... clients-repository.o"
-	@echo "... clients-repository.i"
-	@echo "... clients-repository.s"
-	@echo "... clients-service.o"
-	@echo "... clients-service.i"
-	@echo "... clients-service.s"
-	@echo "... clients-view.o"
-	@echo "... clients-view.i"
-	@echo "... clients-view.s"
-	@echo "... file.o"
-	@echo "... file.i"
-	@echo "... file.s"
+	@echo "... controller/clients-controller.o"
+	@echo "... controller/clients-controller.i"
+	@echo "... controller/clients-controller.s"
+	@echo "... controller/tickets-controller.o"
+	@echo "... controller/tickets-controller.i"
+	@echo "... controller/tickets-controller.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
+	@echo "... repository/clients-repository.o"
+	@echo "... repository/clients-repository.i"
+	@echo "... repository/clients-repository.s"
+	@echo "... repository/tickets-repository.o"
+	@echo "... repository/tickets-repository.i"
+	@echo "... repository/tickets-repository.s"
+	@echo "... service/clients-service.o"
+	@echo "... service/clients-service.i"
+	@echo "... service/clients-service.s"
+	@echo "... service/tickets-service..o"
+	@echo "... service/tickets-service..i"
+	@echo "... service/tickets-service..s"
+	@echo "... utils/file.o"
+	@echo "... utils/file.i"
+	@echo "... utils/file.s"
+	@echo "... utils/utils.o"
+	@echo "... utils/utils.i"
+	@echo "... utils/utils.s"
+	@echo "... view/clients-view.o"
+	@echo "... view/clients-view.i"
+	@echo "... view/clients-view.s"
+	@echo "... view/tickets-view.o"
+	@echo "... view/tickets-view.i"
+	@echo "... view/tickets-view.s"
 .PHONY : help
 
 

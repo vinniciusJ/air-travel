@@ -3,11 +3,11 @@
 //
 #include <stdlib.h>
 #include <stdio.h>
-#include "clients-controller.h"
-#include "tickets-controller.h"
+#include "controller/clients-controller.h"
+#include "controller/tickets-controller.h"
 
 #include "app.h"
-#include "utils.h"
+#include "utils/utils.h"
 
 void show_menu(){
     system("clear");
