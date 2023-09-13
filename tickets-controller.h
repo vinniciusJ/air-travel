@@ -8,7 +8,6 @@
 #ifndef AIR_TRAVEL_PROJECT_TICKETS_CONTROLLER_H
 #define AIR_TRAVEL_PROJECT_TICKETS_CONTROLLER_H
 
-Tickets * tickets = NULL;
 
 void add_ticket();
 void show_all_tickets();

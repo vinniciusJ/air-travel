@@ -8,7 +8,7 @@
 #define AIR_TRAVEL_PROJECT_TICKETS_REPOSITORY_H
 
 Tickets * read_tickets();
-void save_tickets(Tickets * tickets);
+void save_tickets(Ticket * ticket);
 Tickets * sync_tickets();
 
 #endif //AIR_TRAVEL_PROJECT_TICKETS_REPOSITORY_H

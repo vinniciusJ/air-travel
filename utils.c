@@ -24,3 +24,7 @@ void * alloc(size_t n_bytes){
 
     return ptr;
 }
+
+void clean_keyboard_buffer(){
+    while ((getchar()) != '\n');
+}

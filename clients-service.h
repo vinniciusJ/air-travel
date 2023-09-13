@@ -14,6 +14,7 @@ int is_employee(Client client);
 int get_fidelity(Client client);
 double get_discount(Client client);
 Clients * free_clients(Clients * clients);
+Clients * get_employees();
 void reset_client(Client client);
 
 #endif //AIR_TRAVEL_PROJECT_CLIENTS_SERVICE_H

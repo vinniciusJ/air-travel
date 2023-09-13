@@ -109,6 +109,18 @@ build CMakeFiles/air_travel_project.dir/tickets-service..c.o: C_COMPILER__air_tr
   OBJECT_DIR = CMakeFiles/air_travel_project.dir
   OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
 
+build CMakeFiles/air_travel_project.dir/tickets-controller.c.o: C_COMPILER__air_travel_project_unscanned_Debug /home/vinniciusj/Documents/unioeste/ies/air-travel-project/tickets-controller.c || cmake_object_order_depends_target_air_travel_project
+  DEP_FILE = CMakeFiles/air_travel_project.dir/tickets-controller.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/air_travel_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
+
+build CMakeFiles/air_travel_project.dir/tickets-view.c.o: C_COMPILER__air_travel_project_unscanned_Debug /home/vinniciusj/Documents/unioeste/ies/air-travel-project/tickets-view.c || cmake_object_order_depends_target_air_travel_project
+  DEP_FILE = CMakeFiles/air_travel_project.dir/tickets-view.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/air_travel_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/air_travel_project.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target air_travel_project
@@ -117,7 +129,7 @@ build CMakeFiles/air_travel_project.dir/tickets-service..c.o: C_COMPILER__air_tr
 #############################################
 # Link the executable air_travel_project
 
-build air_travel_project: C_EXECUTABLE_LINKER__air_travel_project_Debug CMakeFiles/air_travel_project.dir/main.c.o CMakeFiles/air_travel_project.dir/app.c.o CMakeFiles/air_travel_project.dir/utils.c.o CMakeFiles/air_travel_project.dir/clients-repository.c.o CMakeFiles/air_travel_project.dir/clients-service.c.o CMakeFiles/air_travel_project.dir/file.c.o CMakeFiles/air_travel_project.dir/clients-controller.c.o CMakeFiles/air_travel_project.dir/clients-view.c.o CMakeFiles/air_travel_project.dir/tickets-repository.c.o CMakeFiles/air_travel_project.dir/tickets-service..c.o
+build air_travel_project: C_EXECUTABLE_LINKER__air_travel_project_Debug CMakeFiles/air_travel_project.dir/main.c.o CMakeFiles/air_travel_project.dir/app.c.o CMakeFiles/air_travel_project.dir/utils.c.o CMakeFiles/air_travel_project.dir/clients-repository.c.o CMakeFiles/air_travel_project.dir/clients-service.c.o CMakeFiles/air_travel_project.dir/file.c.o CMakeFiles/air_travel_project.dir/clients-controller.c.o CMakeFiles/air_travel_project.dir/clients-view.c.o CMakeFiles/air_travel_project.dir/tickets-repository.c.o CMakeFiles/air_travel_project.dir/tickets-service..c.o CMakeFiles/air_travel_project.dir/tickets-controller.c.o CMakeFiles/air_travel_project.dir/tickets-view.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/air_travel_project.dir
   POST_BUILD = :

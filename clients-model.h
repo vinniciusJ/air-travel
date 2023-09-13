@@ -3,7 +3,7 @@
 //
 
 #define CPF_LENGTH 11
-#define NAME_LENGTH 50
+#define NAME_LENGTH 25
 #define CODE_LENGTH 4
 
 #ifndef AIR_TRAVEL_PROJECT_CLIENT_MODEL_H
@@ -13,6 +13,7 @@ typedef struct {
     char cpf[CPF_LENGTH];
     char name[NAME_LENGTH];
     char code[CODE_LENGTH];
+    int is_employee;
 } Client;
 
 typedef struct ClientsNode {

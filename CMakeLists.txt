@@ -26,4 +26,6 @@ add_executable(air_travel_project main.c
         clients-view.c
         tickets-repository.c
         tickets-service..c
+        tickets-controller.c
+        tickets-view.c
 )

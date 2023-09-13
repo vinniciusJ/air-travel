@@ -4,9 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 #include "clients-model.h"
 #include "clients-view.h"
+#include "tickets-view.h"
 #include "utils.h"
 
 void show_clients(Clients * clients) {
@@ -31,20 +33,23 @@ void show_client(Client client) {
 }
 
 void input_client(Client * client) {
-    
-    printf("------------------Cadastro de Cliente------------------\n\n");
+    char aux;
+
+    printf("---------------Cadastro de cliente---------------\n");
+
     printf("Nome: ");
     scanf("%[^\n]%*c", client->name);
-    printf("\n");
 
     printf("CPF: ");
     scanf("%[^\n]%*c", client->cpf);
-    printf("\n");
 
     printf("Código: ");
     scanf("%[^\n]%*c", client->code);
-    printf("\n");
 
+    printf("É empregado (S/N)? ");
+    scanf("%c", &aux);
+
+    client->is_employee = tolower(aux) == 's';
 }
 
 void input_cpf(char * cpf) {
@@ -52,6 +57,23 @@ void input_cpf(char * cpf) {
 
     printf("------------------Pesquisa de Cliente------------------\n\n");
     printf("Digite o cpf procurado: ");
-    scanf("%*c%[^\n]%*c", cpf);
+    scanf("%[^\n]%*c", cpf);
     printf("\n");
 }
+
+void show_clients_tickets(Client * client, Tickets * tickets){
+    system("clear");
+
+    show_client(*client);
+
+    while(tickets != NULL){
+        show_ticket(tickets->item, *client);
+
+        tickets = tickets->next;
+    }
+}
+
+void show_fidelity(char digit){
+    printf("O plano de fidelidade do cliente é: %s\n", digit == '1' ? "Gold" : digit == '2' ? "Silver" : "Comum");
+}
+

@@ -12,7 +12,7 @@ void input_cpf(char * cpf);
 void input_client(Client * client);
 void show_client(Client client);
 void show_clients(Clients * clients);
-void show_discount(int fidelity, int is_employee, double discount);
-void show_clients_tickets(Client client, Tickets * clients_tickets);
+void show_clients_tickets(Client * client, Tickets * tickets);
+void show_fidelity(char digit);
 
 #endif //AIR_TRAVEL_PROJECT_CLIENTS_VIEW_H

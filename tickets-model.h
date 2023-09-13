@@ -2,7 +2,7 @@
 // Created by vinniciusj on 09/09/23.
 //
 #define ABBR 10
-#define NAME_LENGTH 50
+#define NAME_LENGTH 25
 #define CPF_LENGTH 11
 
 #ifndef AIR_TRAVEL_PROJECT_TICKETS_H
@@ -11,9 +11,7 @@
 typedef struct  {
     char origin_airport_abbr[ABBR];
     char destiny_airport_abbr[ABBR];
-    char passenger_name[NAME_LENGTH];
     char cpf[CPF_LENGTH];
-    int fidelity_code;
     double value;
     double final_value;
 } Ticket;

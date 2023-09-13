@@ -31,9 +31,10 @@ Clients * read_clients(){
 void save_client(Client * client) {
     FILE * clients_file = open_file(CLIENTS_FILENAME, "a");
 
-    fprintf(clients_file, "%-25s", client->name);
-    fprintf(clients_file, "%12s", client->cpf);
-    fprintf(clients_file, "%4s\n", client->code);
+    fprintf(clients_file, "%s\n", client->name);
+    fprintf(clients_file, "%s\n", client->cpf);
+    fprintf(clients_file, "%s\n", client->code);
+    fprintf(clients_file, "%d\n", client->is_employee);
 
     fclose(clients_file);
 }

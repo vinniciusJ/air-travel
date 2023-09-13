@@ -12,9 +12,9 @@
 
 void search_client_by_cpf();
 void show_all_clients();
-void show_clients_tickets();
+void show_tickets_by_client();
 void add_client();
-void update_client();
-void init();
+void show_client_fidelity();
+void show_employees();
 
 #endif //AIR_TRAVEL_PROJECT_CLIENTS_CONTROLLER_H
